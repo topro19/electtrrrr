@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Services &amp; Maintenance | JDV Elektrotechniek</title>
+<!-- Tailwind CSS CDN with plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Google Fonts: Eb Garamond for headings, Manrope for body text -->
+<link href="https://fonts.googleapis.com/css2?family=Eb+Garamond:wght@400;500;600;700&amp;family=Manrope:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "outline-variant": "#d8d0c8",
+            "surface-container-highest": "#e6e0d6",
+            "surface-bright": "#faf5ee",
+            "outline": "#9a9088",
+            "primary-container": "#e08850",
+            "error-container": "#fce4e0",
+            "tertiary": "#8c3c3c",
+            "error": "#c0392b",
+            "tertiary-fixed-dim": "#e8a0a0",
+            "on-surface": "#3a302a",
+            "secondary-fixed": "#eae2da",
+            "on-tertiary-container": "#3a2020",
+            "on-background": "#3a302a",
+            "on-primary": "#ffffff",
+            "surface-container": "#f2ece4",
+            "on-secondary": "#ffffff",
+            "tertiary-fixed": "#fce0e0",
+            "on-primary-fixed-variant": "#8a4518",
+            "on-surface-variant": "#605850",
+            "background": "#faf5ee",
+            "surface-container-low": "#f6f0e8",
+            "secondary": "#78706a",
+            "on-primary-container": "#fbe8d8",
+            "on-secondary-container": "#605850",
+            "on-primary-fixed": "#401a08",
+            "on-error-container": "#7a1a10",
+            "primary": "#c2652a",
+            "primary-fixed": "#fbe8d8",
+            "on-tertiary-fixed": "#2e1515",
+            "inverse-on-surface": "#faf5ee",
+            "surface-container-high": "#ece6dc",
+            "inverse-surface": "#3a302a",
+            "surface-tint": "#c2652a",
+            "on-secondary-fixed-variant": "#504840",
+            "inverse-primary": "#f0a878",
+            "primary-fixed-dim": "#f0a878",
+            "tertiary-container": "#d47070",
+            "surface-dim": "#dcd6cc",
+            "surface-container-lowest": "#ffffff",
+            "surface": "#faf5ee",
+            "surface-variant": "#ece6dc",
+            "on-tertiary-fixed-variant": "#6e3030",
+            "on-tertiary": "#ffffff",
+            "on-secondary-fixed": "#2a2420",
+            "secondary-fixed-dim": "#cec6be",
+            "secondary-container": "#eae2da",
+            "on-error": "#ffffff"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.5rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "fontFamily": {
+            "headline": ["Eb Garamond", "serif"],
+            "display": ["Eb Garamond", "serif"],
+            "body": ["Manrope", "sans-serif"],
+            "label": ["Manrope", "sans-serif"]
+          }
+        },
+      },
+    }
+  </script>
+<style>
+    body {
+      font-family: 'Manrope', sans-serif;
+    }
+    h1, h2, h3 {
+      font-family: 'Eb Garamond', serif;
+    }
+  </style>
+</head>
+<body class="bg-background text-on-surface antialiased">
+<!-- BEGIN: Site Container -->
+<div class="max-w-[1200px] mx-auto my-8 shadow-sm border border-outline-variant rounded-lg overflow-hidden bg-surface">
+<!-- BEGIN: Browser Header -->
+<header class="border-b border-surface-variant" data-purpose="main-navigation">
+<!-- Actual Navigation -->
+<nav class="flex items-center justify-between px-8 py-6">
+<div class="font-bold text-xl tracking-tight" data-purpose="logo">
+<a class="inline-block" href="#"><img alt="JDV Elektrotechniek Logo" class="h-10 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ADBb0ui2_T4h6sE0dqyQvB2JLLERaJ9ed8Zw9UweOCEDuMQMRHTq7I5Sn5iQkROKi_Tb-XG-pjPjMZdH4SYenyjDPaA57eh-6cBkcGC1wwBNAbB_aY3VFZfrHn3mm4HyVUR5KDUApwj0hHGmBUpUBBqhmQ6X3N_ovSkWTZ2PJjuIU7PtoYNVIs-TWwWj4b3Mm_FYNssU4NhebQNG0tdOJX8CyTX8kq3r0YLP9rPGUO5ie9LnUUfISt9pK2ULdSSgIz_M65OojApO4Sixag"/></a>
+</div>
+<ul class="flex gap-8 font-medium text-sm text-on-surface-variant">
+<li><a class="hover:text-primary transition-colors" href="#">Home</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Diensten</a></li>
+<li><a class="text-primary font-bold" href="#">Services &amp; Onderhoud</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Contact</a></li>
+</ul>
+</nav>
+</header>
+<!-- END: Browser Header -->
+<!-- BEGIN: Hero Section -->
+<section class="px-8 py-16" data-purpose="hero-section">
+<div class="bg-surface-container rounded-xl p-12 md:p-20 flex flex-col md:flex-row items-center justify-between gap-12">
+<div class="md:w-2/3">
+<h1 class="text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight text-on-surface">
+            Don't leave your electrical system in the dark: <span class="text-primary">maintenance ensures a bright future.</span>
+</h1>
+</div>
+<div class="md:w-1/3 flex justify-end">
+<button class="bg-primary text-on-primary px-8 py-6 rounded-xl text-sm font-semibold max-w-[200px] text-center leading-snug hover:bg-primary/90 transition-colors shadow-md">
+            Email us for service &amp; maintenance
+          </button>
+</div>
+</div>
+</section>
+<!-- END: Hero Section -->
+<!-- BEGIN: Section 1 (24/7 Breakdown) -->
+<section class="px-8 py-16" data-purpose="breakdown-service">
+<div class="max-w-6xl mx-auto">
+<h2 class="text-3xl font-semibold mb-8 text-primary">24/7 Breakdown service</h2>
+<div class="flex flex-col md:flex-row gap-12 items-center">
+<div class="md:w-1/2">
+<img alt="Electrical sparks" class="rounded-2xl w-full shadow-md border border-outline-variant" data-purpose="breakdown-image" src="https://lh3.googleusercontent.com/aida/ADBb0uhdoFuy43J-PSx10QjoewSNpt4wWt775MdvP1p-5CKcfFORuTnYfZI0Vna0d8AzuNa_9u1yo4KpX7Ks8v7Bj5q_LognwoPBqlcZud7GhtJpXn32VdEvd4-h8WcF9EM9ycupxfQb3zN6dVqMQiC6vjE0Yuwc53VKyP9uw9BLu8JSkCSTvAPz4qNN5YTRGLgCnhP_t7FskHUA06vCQGvbO0FwYDVd1BBQhhY7XxJfytJrj9mFKZb0zgeOOVRVXtq5Fzvn1e9yRjE4"/>
+</div>
+<div class="md:w-1/2">
+<p class="text-on-surface-variant leading-relaxed text-lg">
+              A power outage can be very annoying and interfere with your daily activities. Unfortunately, a fault cannot fix itself, but our 24/7 breakdown service can! We are available 24/7 for all your electrical faults. Feel free to contact us, and we will try to help you as soon as possible.
+            </p>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Section 1 -->
+<!-- BEGIN: Section 2 (Repair Work) -->
+<section class="px-8 py-16" data-purpose="repair-work">
+<div class="max-w-6xl mx-auto">
+<h2 class="text-3xl font-semibold mb-8 text-primary">Repair work after inspection:</h2>
+<div class="flex flex-col md:flex-row-reverse gap-12 items-center">
+<div class="md:w-1/2">
+<div class="bg-surface-container-low border border-outline-variant shadow-sm rounded-2xl w-full h-[400px]"><img alt="Certification Icon" class="w-full h-full object-cover rounded-2xl" src="https://lh3.googleusercontent.com/aida/ADBb0uhJOFQd72NyUfEfFG6p45YtKlR9JZnaq4HzrfGYLKkfaTbIhjthOu6Hl--O4PilagVMY5DWewbiTdbSm0HbtrUCc3bRoiWYV-Z8pqiajGG8EWMUZV19jPN1TtIkPpAMYmZMFf-wa0fRc4uJGpE5bqPe0ZsMsl-8iu7YXm1bO0ZeTML0OEg1EkXSorL2i8wrou9Og2sIv24SBL-7mv6yymhk6ymTnPPDLQlyl4Wgy1N0VLLKv8-THjCTZtGxTs9S9HQzkhWATYCg"/></div>
+</div>
+<div class="md:w-1/2">
+<p class="text-on-surface-variant leading-relaxed text-lg">
+              Have you had a Scope 8 or 10 inspection carried out and are you looking for someone who can repair all the defects? We can help you with this as well.
+            </p>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Section 2 -->
+<!-- BEGIN: Bottom CTA -->
+<section class="px-8 py-24 text-center" data-purpose="bottom-cta">
+<div class="max-w-3xl mx-auto mb-12">
+<p class="text-on-surface-variant leading-relaxed text-lg">
+    Whether you require urgent electrical assistance, scheduled maintenance, or expert advice for your installation, <span class="font-bold text-on-surface">JDV Elektrotechniek</span> is ready to help. We provide reliable solutions with a strong focus on safety, quality, and long-term performance. Our team works efficiently and professionally to ensure your electrical systems continue operating at their best. Feel free to contact us directly to discuss your project or maintenance needs.
+  </p>
+</div>
+<button class="bg-primary text-on-primary px-10 py-4 rounded-xl font-bold hover:bg-primary/90 transition-all shadow-lg transform hover:-translate-y-1">
+        Contact us directly
+      </button>
+</section>
+<!-- END: Bottom CTA -->
+<!-- BEGIN: Main Footer -->
+<footer class="border-t border-outline-variant px-8 py-16 bg-surface" data-purpose="footer">
+<div class="max-w-6xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 items-start text-on-surface-variant text-sm">
+<!-- Column 1: Company Details -->
+<div class="space-y-4">
+<div class="space-y-1">
+<p class="font-bold text-on-surface text-base">JDV Elektrotechniek</p>
+<p>Adresregels hier</p>
+<p>Postcode, Stad</p>
+</div>
+<div class="space-y-1 pt-2">
+<p>Email: <a class="hover:text-primary transition-colors text-on-surface-variant" href="mailto:info@jdvelektro.nl">info@jdvelektro.nl</a></p>
+<p>Telefoon: +0648396336</p>
+</div>
+</div>
+<!-- Column 2 & 3: Logo Centered -->
+<div class="md:col-span-2 flex justify-center items-center py-4">
+<div class="p-2 border-2 border-primary-container rounded-full bg-surface-container-lowest shadow-sm">
+<img alt="JDV Elektrotechniek Logo" class="h-32 w-32 object-contain rounded-full" src="https://lh3.googleusercontent.com/aida/ADBb0ui2_T4h6sE0dqyQvB2JLLERaJ9ed8Zw9UweOCEDuMQMRHTq7I5Sn5iQkROKi_Tb-XG-pjPjMZdH4SYenyjDPaA57eh-6cBkcGC1wwBNAbB_aY3VFZfrHn3mm4HyVUR5KDUApwj0hHGmBUpUBBqhmQ6X3N_ovSkWTZ2PJjuIU7PtoYNVIs-TWwWj4b3Mm_FYNssU4NhebQNG0tdOJX8CyTX8kq3r0YLP9rPGUO5ie9LnUUfISt9pK2ULdSSgIz_M65OojApO4Sixag"/>
+</div>
+</div>
+<!-- Column 4: Quick Menu -->
+<div class="flex flex-col items-end space-y-4">
+<h3 class="font-bold text-primary tracking-wider text-xs">QUICK MENU</h3>
+<ul class="space-y-2 text-right">
+<li><a class="hover:text-primary transition-colors text-on-surface-variant" href="#">Home</a></li>
+<li><a class="hover:text-primary transition-colors text-on-surface-variant" href="#">Diensten</a></li>
+<li><a class="hover:text-primary transition-colors text-on-surface-variant" href="#">Services &amp; Onderhoud</a></li>
+<li><a class="hover:text-primary transition-colors text-on-surface-variant" href="#">Contact</a></li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+<!-- END: Main Footer -->
+</div>
+<!-- END: Site Container -->
+</body></html>
