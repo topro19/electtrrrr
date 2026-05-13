@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Service &amp; Onderhoud - JDV Elektrotechniek</title>
+  <meta name="description"
+    content="JDV Elektrotechniek biedt 24/7 storingsdienst, herstelwerkzaamheden na inspectie en volledig elektrotechnisch onderhoud voor woningen en bedrijven." />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;700&family=Manrope:wght@300;400;600;700&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+    rel="stylesheet" />
+  <script id="tailwind-config">
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#c2652a", "on-primary": "#ffffff", "primary-container": "#e08850", "on-primary-container": "#fbe8d8", "primary-fixed": "#fbe8d8", "background": "#fdf8f1", "on-background": "#3a302a", "surface": "#faf5ee", "on-surface": "#3a302a", "surface-variant": "#ece6dc", "on-surface-variant": "#605850", "surface-container-low": "#f6f0e8", "surface-container": "#f2ece4", "surface-container-high": "#ece6dc", "surface-dim": "#dcd6cc", "outline": "#9a9088", "outline-variant": "#d8d0c8", "inverse-surface": "#3a302a", "inverse-on-surface": "#faf5ee", "error": "#c0392b"
+          },
+          borderRadius: { DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px", custom: "20px" },
+          fontFamily: { headline: ["EB Garamond", "serif"], body: ["Manrope", "sans-serif"] }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bg-background text-on-background">
+
+  <nav class="site-nav" id="main-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="./stitch_screens/images/logo.png" alt="JDV Elektrotechniek" />
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html" class="nav-link" id="nav-home">Home</a>
+        <a href="services.html" class="nav-link" id="nav-services">Diensten</a>
+        <a href="maintenance.html" class="nav-link active" id="nav-maintenance">Service &amp; Onderhoud</a>
+        <a href="contact.html" class="nav-link" id="nav-contact">Contact</a>
+      </div>
+      <button class="nav-hamburger" id="hamburger" aria-label="Menu openen">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <!-- HERO -->
+    <section class="section-padded" data-purpose="hero">
+      <div class="max-w-7xl mx-auto px-4 sm:px-8 lg:px-12">
+        <div
+          class="bg-surface-container rounded-custom p-12 md:p-20 flex flex-col md:flex-row items-center justify-between gap-12 border border-outline-variant">
+          <div class="md:w-2/3">
+            <p class="page-hero-eyebrow">Service &amp; Onderhoud</p>
+            <h1 class="page-hero-title">Laat uw elektrische systeem niet in het donker staan: <span
+                class="text-primary">onderhoud zorgt voor een stralende toekomst.</span></h1>
+          </div>
+          <div class="md:w-1/3 flex justify-center md:justify-end">
+            <a href="contact.html" class="btn-primary text-center max-w-[220px] leading-snug">Mail ons voor service
+              &amp; onderhoud</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 24/7 BREAKDOWN -->
+    <section class="section-padded bg-surface" id="breakdown">
+      <div class="max-w-7xl mx-auto px-4 sm:px-8 lg:px-12">
+        <h2 class="section-title-left">24/7 Storingsdienst</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mt-8 items-center">
+          <img
+            src="https://lh3.googleusercontent.com/aida/ADBb0uhdoFuy43J-PSx10QjoewSNpt4wWt775MdvP1p-5CKcfFORuTnYfZI0Vna0d8AzuNa_9u1yo4KpX7Ks8v7Bj5q_LognwoPBqlcZud7GhtJpXn32VdEvd4-h8WcF9EM9ycupxfQb3zN6dVqMQiC6vjE0Yuwc53VKyP9uw9BLu8JSkCSTvAPz4qNN5YTRGLgCnhP_t7FskHUA06vCQGvbO0FwYDVd1BBQhhY7XxJfytJrj9mFKZb0zgeOOVRVXtq5Fzvn1e9yRjE4"
+            alt="Elektrische vonken - 24/7 Storingsdienst"
+            class="rounded-custom w-full shadow-md border border-outline-variant object-cover h-72" />
+          <div>
+            <p class="text-on-surface-variant leading-relaxed text-lg">Een stroomstoring kan erg vervelend zijn en uw
+              dagelijkse activiteiten verstoren. Helaas lost een storing zich niet vanzelf op, maar onze 24/7
+              storingsdienst wel!</p>
+            <p class="text-on-surface-variant leading-relaxed text-lg mt-4">Wij zijn 24/7 bereikbaar voor al uw
+              elektrotechnische storingen. Neem gerust contact op, dan proberen we u zo snel mogelijk te helpen.</p>
+            <a href="contact.html" class="btn-primary mt-8 inline-block">Neem nu contact op</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REPAIR WORK -->
+    <section class="section-padded" id="repair">
+      <div class="max-w-7xl mx-auto px-4 sm:px-8 lg:px-12">
+        <h2 class="section-title-left">Herstelwerkzaamheden na inspectie</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mt-8 items-center">
+          <div>
+            <p class="text-on-surface-variant leading-relaxed text-lg">Heeft u een Scope 8 of 10 inspectie laten
+              uitvoeren en bent u op zoek naar iemand die alle gebreken kan herstellen? Ook hiermee kunnen wij u helpen.
+            </p>
+            <p class="text-on-surface-variant leading-relaxed text-lg mt-4">Onze ervaren monteurs zorgen ervoor dat uw
+              installatie voldoet aan alle huidige veiligheidsnormen, zodat u met een gerust hart verder kunt.</p>
+            <a href="contact.html" class="btn-outline mt-8 inline-block">Vraag een offerte aan</a>
+          </div>
+          <img
+            src="https://lh3.googleusercontent.com/aida/ADBb0uhJOFQd72NyUfEfFG6p45YtKlR9JZnaq4HzrfGYLKkfaTbIhjthOu6Hl--O4PilagVMY5DWewbiTdbSm0HbtrUCc3bRoiWYV-Z8pqiajGG8EWMUZV19jPN1TtIkPpAMYmZMFf-wa0fRc4uJGpE5bqPe0ZsMsl-8iu7YXm1bO0ZeTML0OEg1EkXSorL2i8wrou9Og2sIv24SBL-7mv6yymhk6ymTnPPDLQlyl4Wgy1N0VLLKv8-THjCTZtGxTs9S9HQzkhWATYCg"
+            alt="Herstel na inspectie"
+            class="rounded-custom w-full shadow-md border border-outline-variant object-cover h-72" />
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="section-padded bg-surface">
+      <div class="max-w-7xl mx-auto px-4 sm:px-8 lg:px-12">
+        <h2 class="section-title">Waarom kiezen voor JDV?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+          <div class="feature-card" data-aos>
+            <span class="material-symbols-outlined feature-icon">bolt</span>
+            <h3 class="feature-title">Snelle reactie</h3>
+            <p class="feature-desc">Wij reageren snel op alle elektrotechnische problemen, waardoor stilstand en ongemak
+              voor u tot een minimum worden beperkt.</p>
+          </div>
+          <div class="feature-card" data-aos>
+            <span class="material-symbols-outlined feature-icon">verified</span>
+            <h3 class="feature-title">Gecertificeerd &amp; Gekwalificeerd</h3>
+            <p class="feature-desc">Al onze monteurs beschikken over de huidige certificeringen, waaronder VCA, NEN 3140
+              en Wallbox AC Installateur.</p>
+          </div>
+          <div class="feature-card" data-aos>
+            <span class="material-symbols-outlined feature-icon">support_agent</span>
+            <h3 class="feature-title">24/7 Beschikbaar</h3>
+            <p class="feature-desc">Elektrotechnische spoedgevallen houden zich niet aan kantoortijden. Wij ook niet —
+              wij staan de hele dag voor u klaar.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOTTOM CTA -->
+    <section class="section-padded text-center" data-purpose="bottom-cta">
+      <div class="max-w-3xl mx-auto px-4">
+        <p class="text-on-surface-variant leading-relaxed text-lg mb-8">Of u nu dringende elektrotechnische hulp nodig
+          heeft, gepland onderhoud wilt laten uitvoeren of deskundig advies zoekt voor uw installatie, <strong
+            class="text-on-surface">JDV Elektrotechniek</strong> staat voor u klaar. Wij bieden betrouwbare oplossingen
+          met een sterke focus op veiligheid, kwaliteit en prestaties op de lange termijn.</p>
+        <a href="contact.html" class="btn-primary">Neem direct contact op</a>
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <p class="footer-brand">JDV Elektrotechniek</p>
+        <p class="footer-detail">Waddinxveen, Nederland</p>
+        <p class="footer-detail flex items-center gap-2"><span class="material-symbols-outlined text-base">call</span>06
+          48 39 63 36</p>
+        <p class="footer-detail flex items-center gap-2"><span
+            class="material-symbols-outlined text-base">mail</span>arihantgupta37@gmail.com</p>
+      </div>
+      <div class="footer-logo-col">
+        <div class="footer-logo-ring">
+          <img
+            src="https://lh3.googleusercontent.com/aida/ADBb0ui2_T4h6sE0dqyQvB2JLLERaJ9ed8Zw9UweOCEDuMQMRHTq7I5Sn5iQkROKi_Tb-XG-pjPjMZdH4SYenyjDPaA57eh-6cBkcGC1wwBNAbB_aY3VFZfrHn3mm4HyVUR5KDUApwj0hHGmBUpUBBqhmQ6X3N_ovSkWTZ2PJjuIU7PtoYNVIs-TWwWj4b3Mm_FYNssU4NhebQNG0tdOJX8CyTX8kq3r0YLP9rPGUO5ie9LnUUfISt9pK2ULdSSgIz_M65OojApO4Sixag"
+            alt="JDV Logo" />
+        </div>
+      </div>
+      <div class="footer-col footer-menu-col">
+        <h4 class="footer-menu-label">SNEL MENU</h4>
+        <a href="index.html" class="footer-link">Home</a>
+        <a href="services.html" class="footer-link">Diensten</a>
+        <a href="maintenance.html" class="footer-link">Service &amp; Onderhoud</a>
+        <a href="contact.html" class="footer-link">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 JDV Elektrotechniek. Alle rechten voorbehouden.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
