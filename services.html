@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Diensten - JDV Elektrotechniek</title>
+  <meta name="description"
+    content="Ontdek de volledige reeks elektrotechnische diensten van JDV Elektrotechniek: renovatie, telecom, laadpalen, groepenkasten en meer." />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;700&family=Manrope:wght@300;400;600;700&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+    rel="stylesheet" />
+  <script id="tailwind-config">
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#c2652a", "on-primary": "#ffffff", "primary-container": "#e08850", "on-primary-container": "#fbe8d8", "primary-fixed": "#fbe8d8", "primary-fixed-dim": "#f0a878", "on-primary-fixed": "#401a08", "on-primary-fixed-variant": "#8a4518", "secondary": "#78706a", "on-secondary": "#ffffff", "secondary-container": "#eae2da", "on-secondary-container": "#605850", "tertiary": "#8c3c3c", "on-tertiary": "#ffffff", "tertiary-container": "#d47070", "on-tertiary-container": "#3a2020", "background": "#fdf8f1", "on-background": "#3a302a", "surface": "#faf5ee", "on-surface": "#3a302a", "surface-variant": "#ece6dc", "on-surface-variant": "#605850", "surface-container-lowest": "#ffffff", "surface-container-low": "#f6f0e8", "surface-container": "#f2ece4", "surface-container-high": "#ece6dc", "surface-container-highest": "#e6e0d6", "surface-dim": "#dcd6cc", "surface-bright": "#faf5ee", "outline": "#9a9088", "outline-variant": "#d8d0c8", "inverse-surface": "#3a302a", "inverse-on-surface": "#faf5ee", "inverse-primary": "#f0a878", "error": "#c0392b", "on-error": "#ffffff", "error-container": "#fce4e0", "on-error-container": "#7a1a10"
+          },
+          borderRadius: { DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px", custom: "20px" },
+          fontFamily: { headline: ["EB Garamond", "serif"], body: ["Manrope", "sans-serif"] }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bg-background text-on-background">
+
+  <!-- NAV -->
+  <nav class="site-nav" id="main-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="./stitch_screens/images/logo.png" alt="JDV Elektrotechniek" />
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html" class="nav-link" id="nav-home">Home</a>
+        <a href="services.html" class="nav-link active" id="nav-services">Diensten</a>
+        <a href="maintenance.html" class="nav-link" id="nav-maintenance">Service &amp; Onderhoud</a>
+        <a href="contact.html" class="nav-link" id="nav-contact">Contact</a>
+      </div>
+      <button class="nav-hamburger" id="hamburger" aria-label="Menu openen">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <!-- HERO -->
+    <section class="page-hero" data-purpose="hero">
+      <div class="max-w-7xl mx-auto px-4 sm:px-8 lg:px-12 py-12">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-surface-container rounded-custom overflow-hidden border border-outline-variant min-h-[320px]">
+          <div class="p-10 md:p-16">
+            <p class="page-hero-eyebrow">Onze diensten</p>
+            <h1 class="page-hero-title">Kwaliteit is onze fundering,<br /><span class="text-primary">betrouwbaarheid ons
+                motto</span></h1>
+          </div>
+          <img src="./stitch_screens/images/map.png" alt="Blauwdruk Overzicht"
+            class="h-110% w-full object-cover min-h-[400px] mix-blend-multiply opacity-80" />
+        </div>
+      </div>
+    </section>
+
+    <!-- RENOVATION -->
+    <section class="section-padded" id="renovation">
+      <div class="max-w-7xl mx-auto px-4 sm:px-8 lg:px-12">
+        <h2 class="section-title-left">Renovatie &amp; Nieuwbouw</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-8">
+          <div
+            class="lg:col-span-2 relative group overflow-hidden rounded-custom border border-outline-variant shadow-sm aspect-video bg-surface-container">
+            <div class="flex transition-transform duration-700 ease-[cubic-bezier(0.23,1,0.32,1)] h-full"
+              id="renovation-slider">
+              <div class="w-full flex-shrink-0 h-full">
+                <img src="./stitch_screens/images/roof.png" alt="Plafond leidingen renovatie"
+                  class="w-full h-full object-cover" />
+              </div>
+              <div class="w-full flex-shrink-0 h-full">
+                <img src="./stitch_screens/images/bath.png" alt="Nieuwbouw installatie"
+                  class="w-full h-full object-cover" />
+              </div>
+              <div class="w-full flex-shrink-0 h-full">
+                <img src="./stitch_screens/images/indoor.png" alt="Elektrotechniek project"
+                  class="w-full h-full object-cover" />
+              </div>
+            </div>
+
+            <!-- Side Slider Controls -->
+            <div
+              class="absolute right-0 top-0 h-full w-14 flex flex-col justify-center items-center gap-4 bg-black/10 backdrop-blur-sm border-l border-white/20 transition-all opacity-0 group-hover:opacity-100">
+              <button class="slider-dot active" data-index="0" aria-label="Slide 1"></button>
+              <button class="slider-dot" data-index="1" aria-label="Slide 2"></button>
+              <button class="slider-dot" data-index="2" aria-label="Slide 3"></button>
+            </div>
+
+            <!-- Navigation Arrows -->
+            <button
+              class="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/20 backdrop-blur-md border border-white/30 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all hover:bg-white/40 active:scale-95"
+              id="prev-slide">
+              <span class="material-symbols-outlined">chevron_left</span>
+            </button>
+            <button
+              class="absolute right-18 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/20 backdrop-blur-md border border-white/30 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all hover:bg-white/40 active:scale-95"
+              id="next-slide">
+              <span class="material-symbols-outlined">chevron_right</span>
+            </button>
+          </div>
+          <div class="flex items-center">
+            <p class="text-on-surface-variant leading-relaxed text-lg">Of het nu gaat om een kleine aanpassing of een
+              volledig nieuwe installatie, bij JDV Elektrotechniek denken we graag met u mee om uw wensen te realiseren.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TELECOM -->
+    <section class="section-padded bg-surface" id="telecom">
+      <div class="max-w-7xl mx-auto px-4 sm:px-8 lg:px-12">
+        <h2 class="section-title-right">Telecom: Datanetwerk, Intercom, Camerabewaking</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-8">
+          <div class="flex items-center">
+            <p class="text-on-surface-variant leading-relaxed text-lg">JDV Elektrotechniek heeft Comelit als
+              voorkeursmerk bij het aanpassen of vernieuwen van deurintercom en camerabewakingssystemen. Door de
+              ervaring met Comelit kunnen we een kwalitatief goed systeem leveren wat helemaal van deze tijd is.</p>
+          </div>
+          <div
+            class="lg:col-span-2 relative group overflow-hidden rounded-custom border border-outline-variant shadow-sm aspect-video bg-surface-container">
+            <div class="flex transition-transform duration-700 ease-[cubic-bezier(0.23,1,0.32,1)] h-full"
+              id="telecom-slider">
+              <div class="w-full flex-shrink-0 h-full">
+                <img src="./stitch_screens/images/server.png" alt="Telecom 1" class="w-full h-full object-cover" />
+              </div>
+              <div class="w-full flex-shrink-0 h-full">
+                <img src="./stitch_screens/images/cam.png" alt="Beveiligingscamera's"
+                  class="w-full h-full object-cover" />
+              </div>
+            </div>
+
+            <!-- Side Slider Controls -->
+            <div
+              class="absolute right-0 top-0 h-full w-14 flex flex-col justify-center items-center gap-4 bg-black/10 backdrop-blur-sm border-l border-white/20 transition-all opacity-0 group-hover:opacity-100">
+              <button class="slider-dot active" data-index="0" aria-label="Slide 1"></button>
+              <button class="slider-dot" data-index="1" aria-label="Slide 2"></button>
+            </div>
+
+            <!-- Navigation Arrows -->
+            <button
+              class="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/20 backdrop-blur-md border border-white/30 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all hover:bg-white/40 active:scale-95"
+              id="telecom-prev">
+              <span class="material-symbols-outlined">chevron_left</span>
+            </button>
+            <button
+              class="absolute right-18 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/20 backdrop-blur-md border border-white/30 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all hover:bg-white/40 active:scale-95"
+              id="telecom-next">
+              <span class="material-symbols-outlined">chevron_right</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SUSTAINABILITY -->
+    <section class="section-padded" id="sustainability">
+      <div class="max-w-7xl mx-auto px-4 sm:px-8 lg:px-12">
+        <h2 class="section-title-left">Duurzaamheid: Laadpalen</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-8 items-center">
+          <div
+            class="lg:col-span-2 relative group overflow-hidden rounded-custom border border-outline-variant shadow-sm aspect-video bg-surface-container">
+            <div class="flex transition-transform duration-700 ease-[cubic-bezier(0.23,1,0.32,1)] h-full"
+              id="sustainability-slider">
+              <div class="w-full flex-shrink-0 h-full">
+                <img src="./stitch_screens/images/wallbox.png" alt="Sustainability 1"
+                  class="w-full h-full object-containe" />
+              </div>
+              <div class="w-full flex-shrink-0 h-full">
+                <img src="./stitch_screens/images/certificate.png" alt="Elektrisch rijden & Laadpalens"
+                  class="w-full h-full object-containe" />
+              </div>
+            </div>
+
+            <!-- Side Slider Controls -->
+            <div
+              class="absolute right-0 top-0 h-full w-14 flex flex-col justify-center items-center gap-4 bg-black/10 backdrop-blur-sm border-l border-white/20 transition-all opacity-0 group-hover:opacity-100">
+              <button class="slider-dot active" data-index="0" aria-label="Slide 1"></button>
+              <button class="slider-dot" data-index="1" aria-label="Slide 2"></button>
+            </div>
+
+            <!-- Navigation Arrows -->
+            <button
+              class="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/20 backdrop-blur-md border border-white/30 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all hover:bg-white/40 active:scale-95"
+              id="sustainability-prev">
+              <span class="material-symbols-outlined">chevron_left</span>
+            </button>
+            <button
+              class="absolute right-18 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/20 backdrop-blur-md border border-white/30 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all hover:bg-white/40 active:scale-95"
+              id="sustainability-next">
+              <span class="material-symbols-outlined">chevron_right</span>
+            </button>
+          </div>
+          <div class="flex items-center">
+            <p class="text-on-surface-variant leading-relaxed text-lg">Laadpaal nodig? JDV Elektrotechniek is een
+              gecertificeerd Wallbox-installateur. We werken met de beste producten van Wallbox.Door de ervaring en het
+              goede contact met Wallbox bieden wij een snelle en kwalitatieve oplossing voor een betrouwbaar
+              laadsysteem.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DISTRIBUTION BOARDS -->
+    <section class="section-padded bg-surface" id="distribution">
+      <div class="max-w-7xl mx-auto px-4 sm:px-8 lg:px-12">
+        <h2 class="section-title-left">Groepenkasten: Vervangen &amp; Uitbreiden</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 items-center">
+          <!-- Left Slider -->
+          <div
+            class="relative group overflow-hidden rounded-custom border border-outline-variant shadow-sm aspect-[3/4] bg-surface-container">
+            <div class="flex transition-transform duration-700 ease-[cubic-bezier(0.23,1,0.32,1)] h-full"
+              id="dist-left-slider">
+              <div class="w-full flex-shrink-0 h-full">
+                <img src="./stitch_screens/images/mcp.png" alt="Groepenkast 1" class="w-full h-full object-cover" />
+              </div>
+              <div class="w-full flex-shrink-0 h-full">
+                <img src="./stitch_screens/images/volts.png" alt="Groepenkast 2" class="w-full h-full object-cover" />
+              </div>
+            </div>
+            <!-- Controls -->
+            <div
+              class="absolute right-0 top-0 h-full w-10 flex flex-col justify-center items-center gap-2 bg-black/5 backdrop-blur-sm border-l border-white/10 transition-all opacity-0 group-hover:opacity-100">
+              <button class="slider-dot active scale-75" data-index="0" aria-label="Slide 1"></button>
+              <button class="slider-dot scale-75" data-index="1" aria-label="Slide 2"></button>
+            </div>
+            <button
+              class="absolute left-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-white/20 backdrop-blur-md border border-white/30 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all"
+              id="dist-left-prev">
+              <span class="material-symbols-outlined text-sm">chevron_left</span>
+            </button>
+            <button
+              class="absolute right-12 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-white/20 backdrop-blur-md border border-white/30 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all"
+              id="dist-left-next">
+              <span class="material-symbols-outlined text-sm">chevron_right</span>
+            </button>
+          </div>
+
+          <!-- Middle Text -->
+          <div class="px-4 text-center">
+            <p class="text-on-surface-variant leading-relaxed text-base">De groepenkast is een cruciaal
+              onderdeel van uw installatie. Een verouderde groepenkast voldoet meestal niet meer aan de huidige
+              veiligheidsnormen. Wij vervangen of passen uw groepenkast aan, zodat u verzekerd bent van een goed
+              functionerende en veilige installatie.</p>
+          </div>
+
+          <!-- Right Slider -->
+          <div
+            class="relative group overflow-hidden rounded-custom border border-outline-variant shadow-sm aspect-[3/4] bg-surface-container">
+            <div class="flex transition-transform duration-700 ease-[cubic-bezier(0.23,1,0.32,1)] h-full"
+              id="dist-right-slider">
+              <div class="w-full flex-shrink-0 h-full">
+                <img src="./stitch_screens/images/mcb.png" alt="Groepenkast 2" class="w-full h-full object-cover" />
+              </div>
+              <div class="w-full flex-shrink-0 h-full">
+                <img src="./stitch_screens/images/elek.png" alt="Groepenkast 1" class="w-full h-full object-cover" />
+              </div>
+            </div>
+            <!-- Controls -->
+            <div
+              class="absolute right-0 top-0 h-full w-10 flex flex-col justify-center items-center gap-2 bg-black/5 backdrop-blur-sm border-l border-white/10 transition-all opacity-0 group-hover:opacity-100">
+              <button class="slider-dot active scale-75" data-index="0" aria-label="Slide 1"></button>
+              <button class="slider-dot scale-75" data-index="1" aria-label="Slide 2"></button>
+            </div>
+            <button
+              class="absolute left-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-white/20 backdrop-blur-md border border-white/30 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all"
+              id="dist-right-prev">
+              <span class="material-symbols-outlined text-sm">chevron_left</span>
+            </button>
+            <button
+              class="absolute right-12 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-white/20 backdrop-blur-md border border-white/30 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all"
+              id="dist-right-next">
+              <span class="material-symbols-outlined text-sm">chevron_right</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section-padded text-center" data-purpose="cta">
+      <div class="max-w-2xl mx-auto px-4">
+        <h2 class="section-title">Op zoek naar een betrouwbare elektrotechnisch specialist?</h2>
+        <p class="text-on-surface-variant text-lg mb-8 leading-relaxed">Neem gerust contact met ons op. We denken graag
+          met u mee.</p>
+        <a href="contact.html" class="btn-primary">Neem direct contact op</a>
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <p class="footer-brand">JDV Elektrotechniek</p>
+        <p class="footer-detail">Waddinxveen, Nederland</p>
+        <p class="footer-detail flex items-center gap-2"><span class="material-symbols-outlined text-base">call</span>06
+          48 39 63 36</p>
+        <p class="footer-detail flex items-center gap-2"><span
+            class="material-symbols-outlined text-base">mail</span>arihantgupta37@gmail.com</p>
+      </div>
+      <div class="footer-logo-col">
+        <div class="footer-logo-ring">
+          <img
+            src="https://lh3.googleusercontent.com/aida/ADBb0ui2_T4h6sE0dqyQvB2JLLERaJ9ed8Zw9UweOCEDuMQMRHTq7I5Sn5iQkROKi_Tb-XG-pjPjMZdH4SYenyjDPaA57eh-6cBkcGC1wwBNAbB_aY3VFZfrHn3mm4HyVUR5KDUApwj0hHGmBUpUBBqhmQ6X3N_ovSkWTZ2PJjuIU7PtoYNVIs-TWwWj4b3Mm_FYNssU4NhebQNG0tdOJX8CyTX8kq3r0YLP9rPGUO5ie9LnUUfISt9pK2ULdSSgIz_M65OojApO4Sixag"
+            alt="JDV Logo" />
+        </div>
+      </div>
+      <div class="footer-col footer-menu-col">
+        <h4 class="footer-menu-label">SNEL MENU</h4>
+        <a href="index.html" class="footer-link">Home</a>
+        <a href="services.html" class="footer-link">Diensten</a>
+        <a href="maintenance.html" class="footer-link">Service &amp; Onderhoud</a>
+        <a href="contact.html" class="footer-link">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 JDV Elektrotechniek. Alle rechten voorbehouden.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
