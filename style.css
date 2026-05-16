@@ -670,22 +670,16 @@ img {
 }
 
 .footer-logo-ring {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  border: 1px solid #c2652a;
-  background: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
-  box-shadow: 0 2px 12px rgba(194, 101, 42, 0.1);
 }
 
 .footer-logo-ring img {
-  width: 80%;
-  height: 80%;
+  height: 80px;
+  width: auto;
   object-fit: contain;
+  mix-blend-mode: multiply;
 }
 
 .footer-menu-col {
